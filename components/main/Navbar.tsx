@@ -11,7 +11,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/mainIconsdark.png"
             alt="logo"
             width={70}
             height={70}
@@ -19,33 +19,36 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Everything Tool
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="w-[500px] h-full sm:flex hidden flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
-              About me
+            <a href="#about" className="cursor-pointer">
+              About
             </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
+            <a href="#token" className="cursor-pointer">
+              Tokenomics
             </a>
-            <a href="#projects" className="cursor-pointer">
-              Projects
+            <a href="#roadmap" className="cursor-pointer">
+            Roadmap
             </a>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
+            <a href={social.links} className=" text-slate-200 w-10 h-10">
+              <Image
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={24}
+                height={24}
+                className="w-full h-full"
+                />
+            </a>
           ))}
         </div>
       </div>
