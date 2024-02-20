@@ -14,31 +14,36 @@ const Projects = () => {
         <ProjectCard
           src="/mainIconsdark.png"
           title="PHASE - 1"
-          line1="Launch"
-          line2="Dexscanner and Dextools Update"
-          line3="CoinGecko/Coinmarketcap Listings"
+          line2="Utilities Launch"
+          line1="Token Launch"
+          line3="Dexscanner and Dextools Update"
           line4="690+ Holders"
         />
 
         <ProjectCard
           src="/mainIconsdark.png"
           title="PHASE - 2"
-          line1="Partnerships"
+          line1="CoinGecko/Coinmarketcap Listings"
           line2="Guerilla Marketing"
-          line3="Exclusive holder content/community hang outs"
+          line3="Community hangouts"
           line4="CEX Listings"
         />
-        {/* <ProjectCard
+
+
+
+        <ProjectCard
           src="/mainIconsdark.png"
           title="PHASE - 3"
-          line1="Lorem ipsum dolor sit amet"
-          line1="Lorem ipsum dolor sit amet"
-          line1="Lorem ipsum dolor sit amet"
-          line1="Lorem ipsum dolor sit amet"
-        /> */}
+          line1="Partnerships"
+          line2="T1 Exchange Listings"
+          line3="10,000+ holders"
+          line4="MORE"
+        />
       </div>
     </div>
   );
 };
+
+
 
 export default Projects;
