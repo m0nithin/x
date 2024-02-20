@@ -46,7 +46,6 @@ const Navbar = () => {
                 key={social.name}
                 width={24}
                 height={24}
-                className="w-full h-full"
                 />
             </a>
           ))}
