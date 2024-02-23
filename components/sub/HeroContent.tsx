@@ -54,11 +54,19 @@ const HeroContent = () => {
         </motion.p>
         <div className="flex gap-3">
         <motion.a
-          href="#"
+          href="https://t.me/XEverythingtool"
+          target="_blank"
           variants={slideInFromLeft(1)}
           className="p-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Join
+        </motion.a>
+        <motion.a
+          href="#"
+          variants={slideInFromLeft(1)}
+          className="p-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          X
         </motion.a>
         <motion.a
           href="#"

@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
 
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                {/* <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                      
@@ -35,13 +35,13 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                  
-                        <span className="text-[15px] ml-[6px]">Telegram</span>    
+                        <a className="text-[15px] ml-[6px]" href="https://t.me/XEverythingtool" target="_blank">Telegram </a> 
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
                         <span className="text-[15px] ml-[6px]">Twitter</span>    
                     </p>
-                </div>
+                </div> */}
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
