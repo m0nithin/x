@@ -62,7 +62,7 @@ const HeroContent = () => {
           Join
         </motion.a>
         <motion.a
-          href="#"
+          href="https://X.com/xeverythingtool"
           variants={slideInFromLeft(1)}
           className="p-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
